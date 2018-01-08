@@ -1,0 +1,100 @@
+body {
+    background: rgb(80,80,80);
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
+header {
+    background: rgb(100, 100, 100);
+    text-align: center;
+    color: rgb(240, 240, 240);
+}
+
+footer {
+    background: rgb(150, 150, 150);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main {
+    height: 100%;
+    background: rgb(255, 255, 255);
+    overflow-y: auto;
+}
+
+main, .content-width {
+    max-width: 800px;
+    margin: auto;
+}
+
+article {
+    margin: 2px;
+}
+
+article header {
+    border-radius: 15px 15px 0 0;
+}
+
+article footer {
+    border-radius: 0 0 15px 15px;
+}
+
+section {
+    border: rgb(150, 150, 150) 1px solid;
+    padding: 3px;
+}
+
+.fineprint {
+    font-size: 10px;
+    color: rgb(240, 240, 240);
+}
+
+.page {
+    position: fixed;
+    width: 100%
+}
+
+header.page {
+    text-align: left;
+    top: 0;
+}
+
+footer.page {
+    bottom: 0;
+}
+
+.graph {
+    border: rgb(100, 100, 100) solid 1px;
+    padding: 3px;
+}
+
+.horizantal-bar {
+    margin-top: 2px;
+    padding: 3px;
+    border: rgb(50, 50, 50) solid 1px;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+svg {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.graph rect {
+    fill: grey;
+    stroke: black;
+    stroke-width: 1px;
+}
+
+.graph text {
+  font: 10px sans-serif;
+    font-weight: bold;
+  text-anchor: end;
+}
+
+
